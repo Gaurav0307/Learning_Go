@@ -43,3 +43,29 @@ Linux
 ```bash
  go build -o phonebook
 ```
+
+### Or
+
+```bash
+ $ GOOS=<OS> GOARCH=<Architecture> go build
+```
+
+### Example:
+
+Windows
+
+```bash
+ $ GOOS=windows GOARCH=amd64 go build
+```
+
+Linux
+
+```bash
+ $ GOOS=linux GOARCH=amd64 go build
+```
+
+macOS
+
+```bash
+ $ GOOS=darwin GOARCH=amd64 go build
+```
