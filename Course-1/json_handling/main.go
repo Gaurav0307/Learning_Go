@@ -6,9 +6,9 @@ import (
 )
 
 type Person struct {
-	Name string `json:"name"`
-	Age  int `json:"age"`
-	IsAdult bool `json:"isAdult"`
+	Name    string `json:"name"`
+	Age     int    `json:"age"`
+	IsAdult bool   `json:"isAdult"`
 }
 
 func main() {
@@ -31,4 +31,4 @@ func main() {
 		return
 	}
 	fmt.Println("Person 2:", person2)
-} 
+}
