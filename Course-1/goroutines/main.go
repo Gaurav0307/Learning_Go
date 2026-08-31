@@ -8,6 +8,7 @@ import (
 func main() {
 	fmt.Println("Main function started")
 
+	// Start 3 goroutines
 	go printNumber(1)
 	go printNumber(2)
 	go printNumber(3)
