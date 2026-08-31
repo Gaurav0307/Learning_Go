@@ -12,6 +12,8 @@ func main() {
 	go printNumber(2)
 	go printNumber(3)
 
+	fmt.Println("In between")
+
 	seconds := 3
 	fmt.Printf("Waiting for %d seconds...\n", seconds)
 	time.Sleep(time.Second * time.Duration(seconds))
